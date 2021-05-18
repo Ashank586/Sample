@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+.mynavbar{
+    position: sticky;
+    z-index: 99999;
+    top:0;
+}
+#marqueestyle{
+    background-color:#00ffff
+}
+#S{
+    float: right
+}
+#map{
+    float:left;
+}
+html{
+ scroll-behavior:smooth;    
+}
+.row::after{
+    content:"";
+    width:33.33px;
+    clear:both;
+    display:table;
+}
+.travel_mainDiv{
+    padding:5px;
+    border:1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width:100%;
+    height:300px;
+}
+.travel_mainDiv hr{
+    width:100%;
+}
+.travel_mainDiv h5{
+    margin-left: 20px;
+}
